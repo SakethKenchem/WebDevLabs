@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <ul class="topLinks">
+        <li>
+            <a href="Home.html" class="topLinks" >Home</a>
+        </li>
+        <li>
+            <a href="#" class="topLinks">About</a>
+        </li>
+        <li>
+            <a href="#" class="topLinks">Courses</a>
+        </li>
+        <li style="float: right;">
+            <a href="signup.html" class="topLinks active">Signup</a>
+        </li>
+    </ul>
+    <h1>Sign Up</h1>
+    <div class="SignUp">
+        <form>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="Firstname" placeholder="First Name" required>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="Lastname" placeholder="Last Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="useremail" placeholder="Email" required>
+
+            <label for="account-type">Account Type</label>
+            <select id="account-type" name="accounttype" required>
+                <option value="student">Student</option>
+                <option value="lecturer">Lecturer</option>
+            </select>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="userpassword" placeholder="Password" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+</body>
+</html>

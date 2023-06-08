@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+#p1{
+    text-align: justify;
+    color: orange;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 22px;
+}
+#p2{
+    text-align: justify;
+    color: lightgreen;
+}
+.addFormat{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+*{
+    background-color: wheat;
+    
+}
+[type="text"]{
+	color: red;
+}
+.topLinks{
+    text-decoration: none;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.topLinks:hover{
+    color: black;
+    font-size: 20px;
+}
+.topLinks:visited{
+    color: green;
+}
+.topLinks:active{
+    color: orange;
+}
+.topBar{
+
+    background-color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    background-image: url(chonker.jpg);
+    background-size: 12%;
+}
+
